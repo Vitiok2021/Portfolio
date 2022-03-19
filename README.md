@@ -1,2 +1,2 @@
 # Portfolio
-https://vitiok2021.github.io/Portfolio/index.html
+https://Vitiok2021.github.io/Portfolio/index.html
