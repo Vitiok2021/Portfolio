@@ -26,28 +26,22 @@ allLink.forEach((el) => el.addEventListener('click', () => {
 
 const portfolioImages = document.querySelectorAll('.portfolio-image');
 const portfolioBtns = document.querySelector('.portfolio__buttons');
-const portfolioBtn = document.querySelectorAll('.portfolio__button');
+
 
 function changeImage(event) {
 
     if (event.target.dataset.season === "winter") {
         portfolioImages.forEach((img, index) => img.src = `./assets/img/winter/${index + 1}.png`);
-
     }
     else if (event.target.dataset.season === "spring") {
         portfolioImages.forEach((img, index) => img.src = `./assets/img/spring/${index + 1}.png`);
-
     }
     else if (event.target.dataset.season === "summer") {
         portfolioImages.forEach((img, index) => img.src = `./assets/img/summer/${index + 1}.png`);
-
     }
     else if (event.target.dataset.season === "autumn") {
         portfolioImages.forEach((img, index) => img.src = `./assets/img/autumn/${index + 1}.png`);
-
     }
-
-
 
 }
 
@@ -58,32 +52,29 @@ portfolioBtns.addEventListener('click', changeImage);
 /*----------------Button----------avtive-------------------*/
 
 
+
+// const portfolioBtn = document.querySelectorAll('.portfolio__button');
+
+
 // for (let i = 0; i < portfolioBtn.length; i++) {
-//     portfolioBtn[i].classList.toggle('active');
-// }
-// const portfolioBtn = document.querySelector('.portfolio__button');
 
-
-
-
-
-
-// function changeClassActive() {
-//     for (let i = 0; i < portfolioBtn.l)
-//         portfolioBtn.classList.toggle('active');
-
+//     function changeClassActive() {
+//         portfolioBtn[i].classList.toggle('active');
+//     }
+//     portfolioBtn[i].addEventListener('click', changeClassActive);
 // }
 
-// portfolioBtn.addEventListener('click', changeClassActive);
 
 
+// const portfolioBtn = document.querySelectorAll('.portfolio__button');
+// function as(elem) {
+//     elem.classList.toggle('active');
+// }
+// for (let i = 0; i < portfolioBtn.length; i++) {
 
 
-
-
-
-
-
+//     portfolioBtn[i].onclick = as;
+// }
 
 
 

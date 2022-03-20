@@ -240,17 +240,13 @@ h2::after {
     transition: 0.3s;
 
 }
-
-.active {
-    color: #000;
-    background-color: #bdae82;
-  }
-
-/* .portfolio__button:hover,
-.portfolio__button:focus
- .portfolio__button:active { 
+.portfolio__button:active,
+.portfolio__button:hover,
+.portfolio__button:focus {
     color: #fff;
-} */
+    background-color: #bdae82;
+}
+
 
 .portfolio__image {
     margin-top: 60px;
